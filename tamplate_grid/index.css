@@ -1,0 +1,100 @@
+.box{
+    display: grid;
+    grid-template-areas: 
+    "ml t mr"
+    "ml c mr"
+    "ml r mr";
+    grid-template-columns: 350px 1fr 250px;
+    grid-template-rows: 45px 400px 200px;
+}
+
+.menu_l{
+    background-color: blue;
+    grid-area: ml;
+}
+
+.box1{
+    background-color: yellow;
+    height: 100px;
+    width: 267px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.box2{
+    background-color: yellowgreen;
+    height: 250px;
+    width: 267px;
+}
+
+.titulo{
+    background-color: red;
+    grid-area: t;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    width: 730px;
+}
+
+.conteudo{
+    background-color: pink;
+    height: 400px;
+    grid-area: c;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape{
+    background-color: green;
+    height: 145px;
+    width: 750px;
+    grid-area: r;
+    text-align: center;
+}
+
+.menu_r{
+    background-color: yellow;
+    grid-area: mr;
+}
+
+.p1{
+    background-color: aqua;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.p2{
+    background-color: orange;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.p3{
+    background-color: violet;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.f1{
+    background-color: yellow;
+    width: 33.3%;
+}
+
+.f2{
+    background-color: greenyellow;
+    width: 33.3%;
+}
+
+.f3{
+    background-color: lightseagreen;
+    width: 33.3%;
+}
